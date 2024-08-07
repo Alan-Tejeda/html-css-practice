@@ -3,11 +3,11 @@ body, h1, p, a {
     padding: 0;
 }
 
-
 .h1 {
     font-family: "Butcherman", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 40px;
   }
   
 body {
@@ -18,37 +18,69 @@ body {
 }
 
 header {
-    background-color: #713535;
-    color: rgb(255, 255, 255);
-    padding: 20px 0;
+    display:flex;
+    justify-content: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6B0504;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    padding-left: 10px;
 }
 
 nav a {
     color: rgb(255, 255, 255);
-    /* text-decoration: none; */
+    text-decoration: none;
     margin: 0 10px;
+    font-size: 20px;
 }
 
 main {
     margin: 20px 0;
+    font-size: x-large;
     color: #ffffff;
 }
 
+.intro {
+    /* border: 5px solid orange; */
+    margin-top: 20px;
+}
+
+.logo{
+    border: 1px solid #EAC45F;
+    border-radius: 10%;
+    height: 300px;
+    width: 300px;
+}
+
+.button {
+    margin-right: 10px;
+    background-color: orange;
+    color: blue;
+}
+
 footer {
-    margin-top: 500px;
-    height: 60px;
-    background-color: #d61c1c;
-    color: rgb(255, 255, 255);
+    margin-top: 13%;
+    font-size: larger;
+    height: 70px;
+    background-color: #6B0504;
+    color: rgb(0, 0, 0);
     padding: 10px 0;
 }
 
 .contact {
-    display: flex;
-    flex-direction: row;
+    padding-top: 6px;
 }
 
-.email {
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+.linkedin {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.rick {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.insta {
+    padding-left: 5px;
+    padding-right: 5px;
 }
